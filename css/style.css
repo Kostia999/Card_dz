@@ -1,0 +1,66 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+p {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    max-width: 690px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.card {
+    position: relative;
+    float: left;
+    width: 200px;
+    background: #E0E0E0;
+    margin: 15px;
+}
+
+
+.image_text {
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 130px;
+    text-align: center;
+    background: #C4C4C4;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.image_text::before {
+    content: "Image";
+}
+
+.title {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 140px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.paragraph {
+    text-align: center;
+    padding: 10px;
+    line-height: 18px;
+    color: #000000;
+}
